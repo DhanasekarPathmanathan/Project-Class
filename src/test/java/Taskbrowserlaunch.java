@@ -49,7 +49,7 @@ public class Taskbrowserlaunch {
 		
 		@Test
 		
-		public void search() {
+		public void Method1() {
 			
 		WebElement search = driver.findElement(By.name("q"));
 		search.sendKeys("Redmi");
@@ -60,7 +60,7 @@ public class Taskbrowserlaunch {
 
 		@Test
 		
-		public void productname() {
+		public void Method2() {
 		WebElement Productname = driver.findElement(By.xpath("(//div[@class='KzDlHZ'])[1]"));
 		Productname.getText();
 		String  Mobilename = Productname.getText();
@@ -69,7 +69,7 @@ public class Taskbrowserlaunch {
 		
 		@Test
 		
-		public void gettheproduct()	{
+		public void Method3()	{
         WebElement fproduct = driver.findElement(By.className("tUxRFH"));
         String mainWindow = driver.getWindowHandle();	        
 		}
